@@ -66,12 +66,13 @@ a {
     color: #4e4b4ccb;
 }
 
+
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100vh;
     background-color: #F9F9F9;
-    box-shadow: 0 2px 20px 10px #4b526615;
+    box-shadow: 0 #4b526615;
 }
 .box5 {
     width: 100%;
@@ -105,11 +106,12 @@ h1:hover {
     background-size: 100% 0.8rem;
 }
 
+
 .container2 {
     border: 0px solid red;
     display: grid;
     grid-template-columns: 27% 27% 27%;
-    grid-template-rows: 100vh;
+    grid-template-rows: 110vh;
     margin-top: 5rem;
     justify-content: center;
     align-items: center;
@@ -133,4 +135,66 @@ h1:hover {
     color: #4E4B4C;
     font-weight: 800;
     font-size: 1.5rem;
+}
+
+.container3 {
+    height: 15rem;
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #4E4B4C;
+    position: relative;
+
+}
+.container3 p {
+    background-color: #4E4B4C;
+    color: #F9F9F9;
+    padding-bottom: 1.5rem;
+}
+.btm {
+    background-color: #4E4B4C;
+}
+.btm button {
+    background-color: transparent;
+    border: none;
+    border: 0px solid red;
+    width: 30px;
+    padding: 0;
+    transition: 0.5s;
+}
+.btm button:hover {
+    filter: opacity(70%);
+}
+.btm a {
+    background-color: transparent;
+    color: #F9F9F9;
+}
+.btm img {
+    background-color: transparent;
+    width: 25px;
+    filter: invert(95%);
+}
+
+.btm2 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.btm2 p {
+    font-size: 0.8rem;
+    padding: 10px;
+}
+.btm2 a{
+    font-size: 0.8rem;
+    background-color: #4E4B4C;
+    color: #F9F9F9;
+    padding-left: 7px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.btm2 a:hover {
+    color: #f9f9f99d;
 }
